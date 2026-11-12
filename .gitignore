@@ -1,0 +1,28 @@
+# 1. 環境變數與敏感金鑰 (絕對禁止上傳)
+.env
+.env.local
+.env.*.local
+
+# 2. 套件相依庫 (體積龐大，禁止上傳)
+node_modules/
+.pnp
+.pnp.js
+
+# 3. 打包與建置快取目錄
+dist/
+build/
+.next/
+out/
+.nuxt/
+.cache/
+
+# 4. 測試報告與日誌檔
+coverage/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# 5. 作業系統與編輯器設定檔
+.DS_Store
+.vscode/
+.idea/
